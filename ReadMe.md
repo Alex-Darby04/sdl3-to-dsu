@@ -18,9 +18,11 @@ Steam Input does most of this job already, but doesn't expose gyro input directl
 * GUI for remapping controller inputs and showing cemuhook server
 * Clean up code massively (currently lot of vibecoding, code is pretty naff)
 * Support steam controller 2 (If valve would ever ship mine :/)
+* Add HIDHide
 
 
 # To use
+This project currently only supports windows. Linux honestly has better programs for this sort of thing.
 
 * Run ```dotnet run```
 * Connect CemuHook to 127.0.0.1 and port 26760
