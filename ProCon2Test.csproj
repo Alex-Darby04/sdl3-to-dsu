@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="C:\Users\alexj\Desktop\git-projects\SDL3\SDL\build\Release\SDL3.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Link>SDL3.dll</Link>
+    </Content>
+    <Content Include="C:\Users\alexj\Desktop\git-projects\SDL3\libusb-1.0.29\VS2022\MS64\dll\libusb-1.0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Link>libusb-1.0.dll</Link>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nefarius.ViGEm.Client" Version="1.21.256" />
+    <PackageReference Include="SDL3-CS" Version="3.4.2" />
+    <PackageReference Include="System.IO.Hashing" Version="10.0.7" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+</Project>
